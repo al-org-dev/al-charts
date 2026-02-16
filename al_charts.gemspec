@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "al_charts"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["al-org"]
   spec.email         = ["dev@al-org.dev"]
   spec.summary       = "Chart and diagram asset pipeline for al-folio Jekyll sites"
