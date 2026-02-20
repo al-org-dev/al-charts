@@ -1,14 +1,12 @@
-# Al-Charts
+# al-charts
 
-A Jekyll plugin that provides chart/diagram script loading and setup logic.
+`al_charts` provides chart/diagram runtime loading and setup logic for `al-folio` v1.x.
 
 ## Installation
 
 ```ruby
 gem 'al_charts'
 ```
-
-Enable in `_config.yml`:
 
 ```yaml
 plugins:
@@ -17,6 +15,17 @@ plugins:
 
 ## Usage
 
+Render chart runtime assets:
+
 ```liquid
 {% al_charts_scripts %}
 ```
+
+## Ecosystem context
+
+- Starter wiring and examples live in `al-folio`.
+- Shared theme/runtime contracts are defined by `al_folio_core`.
+
+## Contributing
+
+Chart runtime behavior and edge cases should be contributed in this repository.
